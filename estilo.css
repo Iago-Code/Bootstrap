@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    padding: 20px;
+    background-color: black;
+}
+
+nav > a {
+    margin: 10px;
+    text-decoration: none;
+    color: azure;
+}
+
+nav a:hover {
+    background-color: rgba(18, 109, 189, 0.925);
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.quadrado {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    justify-items: center;
+}
